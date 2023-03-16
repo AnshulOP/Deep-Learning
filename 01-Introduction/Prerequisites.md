@@ -5,4 +5,5 @@
 5. Python Programming
 6. Data Structures and Algorithms.
 7. Machine Learning Fundamentals, including supervised and unsupervised learning, model selection and evaluation, and feature extraction.
-8. Optimization Techniques.                                                              
+8. Optimization Techniques.
+9. And an entusiastic mind to learn new things                                                              

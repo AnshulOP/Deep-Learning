@@ -14,7 +14,7 @@ The update rule for the weights and biases in the perceptron trick is as follows
 
      w = w + α * x * y
      b = b + α * y
-     where w is the weight vector, b is the bias, α is the learning rate, x is the input feature vector, and y is the true label of the input (+1 or -1). 
+     where w is the weight vector, b is the bias, α is the learning rate, x is the input feature vector, and y is the true label of the input (+1 or -1) 
      
 The learning rate is a hyperparameter that controls the step size of the updates. It is chosen carefully to balance between fast convergence and overshooting.
 

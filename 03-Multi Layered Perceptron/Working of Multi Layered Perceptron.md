@@ -16,4 +16,4 @@ Steps involved in working of Multilayered Perceptron :-
 
 3. Weight Update: The weights are updated using an optimization algorithm such as stochastic gradient descent (SGD) or Adam. The optimization algorithm adjusts the weights by computing the gradient of the error with respect to the weights and updating them in the direction of the negative gradient. This process is repeated for multiple epochs until the error is minimized and the MLP produces accurate predictions.
 
-4. Dropout: To avoid overfitting, dropout is often applied to the MLP during training. Dropout randomly drops out some of the neurons in the hidden layers during each training iteration. This helps the model generalize better to new data and improves its accuracy on the test data.
+4. Dropout: To avoid overfitting, dropout is often applied to the MLP during training. Dropout randomly drops out some of the neurons in the hidden layers during each training iteration. This helps the model generalize better to new data and improves its accuracy on test data.

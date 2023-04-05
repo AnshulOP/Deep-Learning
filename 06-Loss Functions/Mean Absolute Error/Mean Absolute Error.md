@@ -1,19 +1,18 @@
                                                         Mean Absolute Error
-Mean Squared Error (MSE) is a loss function that is commonly used in regression analysis to measure the difference between the predicted and actual values. It is calculated as the average of the squared differences between the predicted and actual values of a dataset. In other words, it measures the average of the sum of squares of the differences between predicted and actual values.
+The mean absolute error (MAE) is a loss function used in regression analysis to evaluate how well a machine learning model fits the data. It measures the average absolute difference between the predicted values and the actual values. In simple terms, it calculates the average of the absolute differences between predicted and actual values.
 
-The formula for MSE is:
+The formula for calculating the MAE is:
 
-    MSE = (1/n) * Σ (y - ŷ)²
-    where y is the actual value, ŷ is the predicted value, n is the number of data points.
+    MAE = 1/n * ∑i=1ton|yi - ŷi|
+    where n is the number of observations, yi is the actual value, and ŷi is the predicted value.
 
-Advantages of MSE:
-1. It is widely used in regression problems and is a very popular loss function.
-2. It is sensitive to outliers and gives higher weightage to larger errors, which is helpful in cases where large errors need to be minimized.
-3. Squaring the differences ensures that the negative errors don't cancel out the positive errors, providing an accurate representation of the overall error.
+Advantages of using MAE as a loss function:
+1. Easy to understand: MAE is a simple and easy-to-understand loss function. It calculates the average absolute difference between predicted and actual values.
+2. Robust to outliers: MAE is less sensitive to outliers than mean squared error (MSE). This is because it does not square the errors and gives equal weightage to all the errors.
+3. Interpretable: MAE is interpretable, which means that the values it produces are in the same units as the target variable. This makes it easier to interpret the results.
 
-Disadvantages of MSE:
-1. Squaring the errors can give more weightage to outliers and make the model less robust.
-2. It does not provide any insight into the direction of the error, i.e., whether the error is positive or negative.
-3. Since it penalizes larger errors more heavily, it may not be the best choice of loss function if the goal is to minimize the maximum error (i.e., the worst-case scenario).
+Disadvantages of using MAE as a loss function:
+1. Less sensitive to changes: MAE is less sensitive to small changes in the predicted values than MSE. This means that if there is a small change in the predicted value, it may not be reflected in the loss function.
+2. May not work well for complex models: MAE may not work well for complex models, as it does not penalize large errors as heavily as MSE. For complex models, MSE may be a better choice.
 
-In summary, MSE is a commonly used loss function in regression analysis that provides an accurate representation of the overall error. While it has several advantages, it may not be the best choice of loss function in all cases, and should be carefully considered in the context of the problem being solved.                                                        
+In summary, the MAE loss function is a simple and easy-to-understand way to evaluate the performance of a regression model. It is less sensitive to outliers and produces interpretable results. However, it may not be as effective for complex models and may not be as sensitive to small changes in the predicted values as MSE.                                                        

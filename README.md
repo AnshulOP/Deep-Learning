@@ -40,5 +40,5 @@ You can install these packages using pip, a package manager for Python:
 ### Contributing
 We welcome contributions from the community! If you have any ideas for new examples or datasets, please open an issue or submit a pull request.
 
-We hope this repository will be helpful in your deep learning journey! If you have any questions or comments, please feel free to reach out to us.
+We hope this repository will be helpful in your deep learning journey!
 

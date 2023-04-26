@@ -1,4 +1,4 @@
-# Deep Learning
+# A-Z Deep Learning
 Welcome to the Deep Learning repository! This repository contains resources and code examples for deep learning.
 
 ### Contents
